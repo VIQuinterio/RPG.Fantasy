@@ -115,7 +115,7 @@ namespace RPG.Fantasy.Classes
 			{
 				Console.ForegroundColor = ConsoleColor.Cyan;
 				heroi.ReceberDano(mago.ValorultimaAtaque - heroi.ValorultimaAtaque);
-				Console.WriteLine("\n" + mago.Nome + " Venceu o " + mago.retornaClasse());
+				Console.WriteLine("\n" + mago.Nome + " Venceu ");
 				Console.ForegroundColor = ConsoleColor.Cyan;
 				Console.WriteLine($"HA HA HA achou que iria me vencer {heroi.Nome} !!");
 				Console.Write("\n");
